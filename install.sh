@@ -9,13 +9,13 @@ echo "Installing fedora_dotfiles."
 echo "Initializing submodule(s)"
 git submodule update --init --recursive
 
-source ~/fedora_dotfiles/install/link.sh
-source ~/fedora_dotfiles/install/setup.sh
+source ~/bastion_dotfiles/install/link.sh
+source ~/bastion_dotfiles/install/setup.sh
 #source ~/fedora_dotfiles/install/git_config.sh
 
 
 #echo "creating vim directories"
 #mkdir -p ~/.vim-tmp
-mkdir -p ~/.scripts/
+mkdir -p ~/bin/
 
 echo "Done. Reload your terminal."
