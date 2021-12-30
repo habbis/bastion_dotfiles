@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DOTFILES=$HOME/fedora_dotfiles
+DOTFILES=$HOME/bastion_dotfiles
 
 echo -e "\\nCreating symlinks"
 echo "=============================="
