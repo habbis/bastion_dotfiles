@@ -1,2 +1,4 @@
-# bastion_dotfiles
-My bastion dotfiles
+
+# fedora_dotfiles
+
+Fedora dotfiles with  tmux.conf
