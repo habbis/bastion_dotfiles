@@ -23,7 +23,7 @@ export EDITOR="$VISUAL"
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 
-#eval `keychain --eval --agents ssh $HOME/.ssh/id_ed25519`
+
 
 #if [ -z "$TMUX" ]; then
 #    # we're not in a tmux session
@@ -99,7 +99,8 @@ alias df='df -x"squashfs"'
 #########
 
 # ssh keymanager keychain                                                                                                                                                                    
-eval `keychain --eval --agents ssh $HOME/.ssh/id_rsa`
+#eval `keychain --eval --agents ssh $HOME/.ssh/id_rsa`
+eval `keychain --eval --agents ssh $HOME/.ssh/id_ed25519`
 
 githabbis () {
 
