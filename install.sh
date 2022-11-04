@@ -10,7 +10,7 @@ echo "Initializing submodule(s)"
 git submodule update --init --recursive
 
 source ~/bastion_dotfiles/install/link.sh
-source ~/bastion_dotfiles/install/setup.sh
+#source ~/bastion_dotfiles/install/setup.sh
 #source ~/fedora_dotfiles/install/git_config.sh
 
 
